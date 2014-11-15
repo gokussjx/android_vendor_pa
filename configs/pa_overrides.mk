@@ -27,7 +27,3 @@ ifneq ($(NO_OTA_BUILD),true)
     PRODUCT_PACKAGES += \
         ParanoidOTA
 endif
-
-# Extra properties
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pa.device=$(DEVICE)
